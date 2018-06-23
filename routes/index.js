@@ -54,6 +54,15 @@ var battleschema = new Schema({
 var BattleSChema = mongoose.model('Battles', battleschema); // model creation
 
 
+
+router.get('/',function(req,res){
+  console.log("Get render api called")
+  res.render('home.html')
+})
+
+
+
+
 /* /insertData -> it is for load data into DB */
 router.post('/login', (req, res) => {
   console.log("login api called");
