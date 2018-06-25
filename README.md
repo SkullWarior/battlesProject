@@ -5,6 +5,13 @@ port: 4000
 
 login api: /login
 
+credentials: 
+{
+    username:"vasu",
+    password:"Vasu"
+    }
+    pass the above credentils in body
+
 after Login, please do send the token which u get in login esponse through headers 
 
  ** Authorization:axjhsdlja324hjkh.erwe234.2sdfsdfkbgdjf
